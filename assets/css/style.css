@@ -216,7 +216,6 @@ p.p1 {
 
     .header {
         height: 120px;
-        margin: 0 auto;
     }
 
     img.one {
@@ -227,11 +226,10 @@ p.p1 {
 
     .topnav {
         float: none;
-        overflow: auto;
         position: static;
-        display: inline-block;
-        margin: 0 auto;
-        width: 100vh;
+        text-align: center;
+        height: 40px;
+        margin-top: 14px;
     } 
 
     .header-title{
@@ -242,6 +240,10 @@ p.p1 {
 
     header {
         height: 120px;
+    }
+
+    a.one, a.two, a.three {
+        float: none;
     }
 
 }

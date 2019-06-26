@@ -22,7 +22,6 @@ header {
 }
 
 .header {
-    overflow: hidden;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff;
     width: 960px;
@@ -195,5 +194,55 @@ p.p1 {
     text-align: justify;
     line-height: 1.5;
     color: #777777;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .header, .about-me {
+        width: 700px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    
+    .header, .about-me {
+        width: 100%;
+    }
+
+    .header {
+        height: 120px;
+        margin: 0 auto;
+    }
+
+    img.one {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .topnav {
+        float: none;
+        overflow: auto;
+        position: static;
+        display: inline-block;
+        margin: 0 auto;
+        width: 100vh;
+    } 
+
+    .header-title{
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+
+    header {
+        height: 120px;
+    }
+
 }
 

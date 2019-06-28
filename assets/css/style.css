@@ -101,7 +101,9 @@ header {
     border: 1px solid #dddddd;
 }
 
-.about-me-heading, .portfolio-heading, .contact-heading {
+.about-me-heading, 
+.portfolio-heading, 
+.contact-heading {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom: 2px solid #dddddd;
@@ -205,7 +207,8 @@ p.p1 {
         width: 700px;
     }
 
-    .Portfolio {
+    .Portfolio,
+    .Contact {
         width: 700px;
     }
 
@@ -253,7 +256,8 @@ p.p1 {
         float: none;
     }
 
-    .Portfolio {
+    .Portfolio,
+    .Contact {
         max-width: 100%;
     }
 

@@ -259,13 +259,15 @@ p.p1 {
 
     .row {
         height: auto;
+        text-align: center;
     }
     
     .img-wrapper {
-        margin: 0 auto;
+        margin: auto;
         float: none;
-        width: 70%;
         margin-bottom: 10px;
+        text-align: center;
+        display: inline-block;
     } 
 }
 

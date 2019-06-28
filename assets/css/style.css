@@ -157,7 +157,8 @@ img {
     
 }
 
-input[type=text], textarea {
+input[type=text], 
+textarea {
     width: 100%;
     padding: 20px;
     border: 1px solid #ccc;

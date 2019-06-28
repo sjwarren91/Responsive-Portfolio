@@ -98,7 +98,6 @@ header {
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    height: 960px;
     border: 1px solid #dddddd;
 }
 
@@ -118,6 +117,14 @@ img.one {
     flex: 1 0 auto;
 }
 
+.img-wrapper {
+    float: left;
+    margin-left: 50px; 
+    position: relative;
+    animation-name: image-slide;
+    animation-duration: 1s;
+}
+
 .footer {
     background-color: #666666;
     color:white;
@@ -126,22 +133,13 @@ img.one {
     border-top: 8px solid #4aaaa5;
 }
 
-.port-one, .port-two,
-.port-three, .port-four,
-.port-five { 
-    float: left;
-    position: absolute;
-    margin-left: 50px;
-}
 
-h3.P1 {
+.img-banner {
     background-color: #4aaaa5;
     width: 300px;
     padding: 10px; 
-    position: relative;
+    position: absolute;
     top: 120px;
-    display: inline-block;
-    margin-left: 50px;
     color: #ffffff;
     text-align: center;
     font-weight: normal;
@@ -154,6 +152,7 @@ h3.P1 {
 
 img {
     border-radius: 8px;
+    
 }
 
 input[type=text], textarea {
@@ -206,6 +205,14 @@ p.p1 {
         width: 700px;
     }
 
+    .Portfolio {
+        width: 700px;
+    }
+
+    .img-wrapper {
+        margin-left: 20px;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -246,5 +253,31 @@ p.p1 {
         float: none;
     }
 
+    .Portfolio {
+        max-width: 100%;
+    }
+
+    .row {
+        height: auto;
+    }
+    
+    .img-wrapper {
+        margin: 0 auto;
+        float: none;
+        width: 70%;
+        margin-bottom: 10px;
+    } 
 }
 
+@keyframes image-slide {
+
+        from {
+            top: 100px;
+            opacity: 0;
+        }
+
+        to {
+            top: 0px;
+            opacity: 1;
+        }
+    }
